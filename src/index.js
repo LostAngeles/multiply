@@ -1,3 +1,9 @@
 module.exports = function multiply(first, second) {
-  // your solution
+
+  numberOne = first;
+  numberTwo = second; 
+
+  asnwer = BigInt(numberOne)*BigInt(numberTwo);
+
+  return String(asnwer);
 }
